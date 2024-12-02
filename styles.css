@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    text-align: center;
+      padding: 40px;
+      background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,69,117,1) 16%, rgba(70,113,218,1) 100%, rgba(0,212,255,1) 100%);
+  }
+
+
+main{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap:30px 10px;
+}
+
+.personaje{
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+
+.pagina{
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+ 
+
